@@ -1,23 +1,38 @@
-<footer class="text-white bg-black">
-  <div class="container">
-    <div>
-      <p>Address</p>
-      <p>
+<footer class="text-white bg-black py-8 font-gilroy">
+
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="md:pl-[25%]">
+      <p class="text-base font-semibold mb-2">Address</p>
+      <p class="text-white text-base">
         Carrer de Torres i Amat, 21 3er<br>
         08001, Barcelona
       </p>
     </div>
-    <div>
-      <p>Follow us</p>
+
+    <div class="md:pr-[30%] flex flex-col items-start md:items-end">
+      <p class="md:pr-[8%] text-base font-semibold mb-2">Follow us</p>
+
+      <div class="mt-4 flex space-x-6">
+        <a href="#" class="text-white hover:text-gray-100 transition text-lg">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-white hover:text-gray-100 transition text-lg">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-white hover:text-gray-100 transition text-lg">
+          <i class="fab fa-behance"></i>
+        </a>
+      </div>
     </div>
   </div>
-  <div class="container">
-    <div>
-      <a href="#">Privacy policy</a>
-      <a href="#">Legal Notice</a>
+
+  <div class="container md:pl-[13.33%] mx-auto flex flex-col md:flex-row justify-between md:items-center mt-8 border-t border-gray-300 pt-6">
+    <div class="flex space-x-4">
+      <a href="#" class="text-white hover:text-gray-100 transition text-base">Privacy policy</a>
+      <a href="#" class="text-white hover:text-gray-100 transition text-base">Legal Notice</a>
     </div>
-    <div>
-      <a class="group" href="https://mortensen.cat" target="_blank" rel="noopener" title="Mortensen: digital agency in Barcelona. UX/UI Design and development">Made with <i class="transition roman group-hover:text-[red]">♥</i> by <strong>Mortensen</strong></a>
+    <div class="md:pr-[12.53%] mt-4 md:mt-0">
+      <a class="group text-white hover:text-gray-100 transition flex md:items-center md:justify-center text-base" href="https://mortensen.cat" target="_blank" rel="noopener" title="Mortensen: digital agency in Barcelona. UX/UI Design and development">Made with <i class="transition roman group-hover:text-[red] mx-1">♥</i> by <strong>Mortensen</strong></a>
     </div>
   </div>
 </footer>

@@ -6,8 +6,17 @@
   </block>
   <block name="content">
 
-    <include src="components/slider.html"></include>
-    <include src="components/text.html"></include>
+    <block name="content">
+      <div class="fade-in transform opacity-0 translate-y-10 transition-opacity duration-700 ease-in-out delay-200">
+        <include src="components/slider.html"></include>
+      </div>
+      <div class="fade-in transform opacity-0 translate-y-10 transition-opacity duration-700 ease-in-out delay-200">
+        <include src="components/text.html"></include>
+      </div>
+      <div class="fade-in transform opacity-0 translate-y-10 transition-opacity duration-700 ease-in-out delay-200">
+        <include src="components/columns.html"></include>
+      </div>
+    </block>
 
   </block>
 </extends>

@@ -1,28 +1,43 @@
-<section>
-  <div class="container">
+<section class="bg-white py-24 md:py-28">
+  <div class="container mx-auto px-4">
+    <h1 class="text-xl md:text-2xl font-gilroy font-bold text-black text-center mb-6">
+      Welcome to Mortensen
+    </h1>
+    <p class="text-base md:text-lg text-black text-center max-w-xl mx-auto mb-8 font-gilroy">
+      Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+    </p>
 
-    <h1>Welcome to Mortensen</h1>
-    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+    <div class="relative w-full max-w-4xl mx-auto">
+      <div class="swiper mySwiper relative">
+        <div class="swiper-wrapper">
 
-    <div class="w-full h-full swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./assets/images/image1.jpeg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/images/image2.jpeg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/images/image3.jpeg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/images/image4.jpeg" alt="">
+          <div class="swiper-slide">
+            <img src="./assets/images/image1.jpeg" alt="Man going down stairs" class="object-cover rounded-md w-[341px] h-[341px] md:w-[950px] md:h-[514px] mx-auto">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./assets/images/image2.jpeg" alt="Sea with a group of dolphins swimming" class="object-cover rounded-md w-[341px] h-[341px] md:w-[950px] md:h-[514px] mx-auto">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./assets/images/image3.jpeg" alt="Two people in front of a radio talking" class="object-cover rounded-md w-[341px] h-[341px] md:w-[950px] md:h-[514px] mx-auto">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./assets/images/image4.jpeg" alt="Palm trees reflected by sunlight" class="object-cover rounded-md w-[341px] h-[341px] md:w-[950px] md:h-[514px] mx-auto">
+          </div>
+
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
 
+      <div class="hidden md:flex absolute inset-y-0 left-0 md:left-[-2rem] lg:left-[-7rem] items-center">
+        <div class="swiper-button-prev text-black hover:text-gray-300 transition"></div>
+      </div>
+      <div class="hidden md:flex absolute inset-y-0 right-0 md:right-[-2rem] lg:right-[-7rem] items-center">
+        <div class="swiper-button-next text-black hover:text-gray-300 transition"></div>
+      </div>
+
+      <div class="swiper-pagination mt-4"></div>
+    </div>
   </div>
 </section>
